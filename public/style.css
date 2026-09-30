@@ -1,14 +1,14 @@
-/* Fundo da página e tipo de letra */
+
 body {
     background-color: #f2f4f7;
     font-family: Arial, sans-serif;
     color: #222222;
 }
 
-/* Caixa central do formulário */
+
 main {
     width: 350px;
-    margin: 80px auto;      /* auto = centra na horizontal */
+    margin: 80px auto;
     padding: 30px;
     background-color: white;
     border: 1px solid #cccccc;
@@ -23,14 +23,13 @@ h1 {
     color: #666666;
 }
 
-/* Textos por cima dos campos */
+
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-/* Campos de email e palavra-passe */
 input[type="email"],
 input[type="password"] {
     width: 100%;
@@ -38,21 +37,10 @@ input[type="password"] {
     margin-bottom: 15px;
     border: 1px solid #cccccc;
     border-radius: 4px;
-    box-sizing: border-box;   /* o padding não aumenta a largura */
+    box-sizing: border-box;
 }
 
-/* Checkbox "Manter sessão iniciada" */
-.lembrar {
-    margin-bottom: 15px;
-}
 
-.lembrar input,
-.lembrar label {
-    display: inline;
-    font-weight: normal;
-}
-
-/* Botão */
 button {
     width: 100%;
     padding: 10px;
