@@ -28,11 +28,6 @@ h1 {
     font-size: 28px;
 }
 
-.sub {
-    color: #5d6d69;
-    line-height: 1.5;
-}
-
 form {
     display: grid;
     gap: 10px;
@@ -80,10 +75,4 @@ button:hover {
 a {
     color: #17675d;
     font-weight: 600;
-}
-
-@media (max-width: 480px) {
-    main {
-        padding: 28px 22px;
-    }
 }
